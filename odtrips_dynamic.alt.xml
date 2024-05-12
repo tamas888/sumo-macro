@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-05-12 18:24:44 by Eclipse SUMO duarouter Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="net.net.xml"/>
+        <route-files value="odtrips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="odtrips_dynamic.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="63" depart="0.79" departLane="free" departSpeed="max" fromTaz="taz_2" toTaz="taz_1">
+        <routeDistribution last="0">
+            <route cost="31.39" probability="1.00000000" edges="-E24 -E2 E18 -E4 -E23 E22 E9 E25"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="92" depart="169.75" departLane="free" departSpeed="max" fromTaz="taz_2" toTaz="taz_1">
+        <routeDistribution last="0">
+            <route cost="31.39" probability="1.00000000" edges="-E24 -E2 E18 -E4 -E23 E22 E9 E25"/>
+        </routeDistribution>
+    </vehicle>
+</routes>
